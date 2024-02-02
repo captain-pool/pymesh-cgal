@@ -15,7 +15,7 @@
 #define CGAL_SURFACE_SWEEP_2_IMPL_H
 
 #include <CGAL/license/Surface_sweep_2.h>
-
+#include <set>
 /*! \file
  *
  * Member-function definitions of the Surface_sweep_2 class-template.
