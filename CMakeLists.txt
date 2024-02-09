@@ -4,6 +4,8 @@
 cmake_minimum_required(VERSION 3.1)
 
 message( "== CMake setup ==" )
+set(CMAKE_OSX_ARCHITECTURES "x86_64")
+set(CMAKE_OSX_ARCHITECTURES "x86_64" CACHE INTERNAL "" FORCE)
 cmake_minimum_required(VERSION 3.1...3.15)
 project(CGAL CXX C)
 export(PACKAGE CGAL)
